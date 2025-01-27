@@ -10,6 +10,14 @@ function Home() {
                         <p className='text-xl'>
                             Os melhores preços aqui!!
                         </p>
+
+                        <div className="flex justify-around gap-4">
+                            <div className='rounded text-white 
+                                            border-white border-solid border-2 py-2 px-4'
+                                >
+                                Novo produto
+                            </div>
+                        </div>
                     </div>
 
                     <div className="flex justify-center ">
