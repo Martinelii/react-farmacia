@@ -1,4 +1,9 @@
 import { Link } from 'react-router-dom'
+import Categoria from '../../../models/Categoria'
+
+interface CardCategoriaProps{
+    categoria: Categoria
+}
 
 function CardCategoria() {
     return (
